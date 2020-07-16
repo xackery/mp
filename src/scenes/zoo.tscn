@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://entities/player/player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://objects/buildings/windmill/windmill.tscn" type="PackedScene" id=2]
+[ext_resource path="res://behaviors/funhouse/EnvironmentChanger.gd" type="Script" id=3]
 
 [sub_resource type="PlaneMesh" id=1]
 size = Vector2( 128, 128 )
@@ -11,6 +12,9 @@ albedo_color = Color( 0.470588, 0.470588, 0.470588, 1 )
 
 [sub_resource type="BoxShape" id=3]
 extents = Vector3( 64, 1, 64 )
+
+[sub_resource type="BoxShape" id=4]
+extents = Vector3( 4, 1, 4 )
 
 [node name="zoo" type="Spatial"]
 
@@ -28,3 +32,26 @@ shape = SubResource( 3 )
 
 [node name="windmill" parent="." instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -39.5279 )
+
+[node name="Area" type="Area" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.22858, 0, -11.9479 )
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape" type="CollisionShape" parent="Area"]
+shape = SubResource( 4 )
+
+[node name="CSGBox" type="CSGBox" parent="Area"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.699573, 0 )
+width = 8.0
+depth = 8.0
+
+[node name="EnvironmentChanger" type="Node" parent="."]
+script = ExtResource( 3 )
+environment_file_names = [ "forest_environment" ]
+light_colors = [ Color( 0.203922, 0.196078, 0.231373, 1 ) ]
+directional_light_node_path = NodePath("../DirectionalLight")
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.478217, 0.878242, 0, -0.878242, 0.478217, 0, 18.529, 0 )
+[connection signal="body_entered" from="Area" to="EnvironmentChanger" method="trigger"]
