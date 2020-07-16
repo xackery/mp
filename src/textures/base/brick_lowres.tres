@@ -1,6 +1,6 @@
 [gd_resource type="ShaderMaterial" load_steps=3 format=2]
 
-[ext_resource path="res://objects/buildings/windmill/textures/brick_lowres.png" type="Texture" id=1]
+[ext_resource path="res://textures/base/brick_lowres.png" type="Texture" id=1]
 [ext_resource path="res://shaders/psx_lit.shader" type="Shader" id=2]
 
 [resource]

@@ -210,6 +210,10 @@ config/name="mp"
 run/main_scene="res://scenes/main.tscn"
 config/icon="res://icon.png"
 
+[editor_plugins]
+
+enabled=PoolStringArray( "qodot" )
+
 [importer_defaults]
 
 texture={
