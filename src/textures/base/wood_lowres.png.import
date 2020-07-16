@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/wood_lowres.png-f6f18fcd9c66785ba53a8ad1677824d9.s3tc.stex"
-path.etc2="res://.import/wood_lowres.png-f6f18fcd9c66785ba53a8ad1677824d9.etc2.stex"
+path.s3tc="res://.import/wood_lowres.png-729abcacfad742bd7e79b94e05d3ffa1.s3tc.stex"
+path.etc2="res://.import/wood_lowres.png-729abcacfad742bd7e79b94e05d3ffa1.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://objects/buildings/windmill/textures/wood_lowres.png"
-dest_files=[ "res://.import/wood_lowres.png-f6f18fcd9c66785ba53a8ad1677824d9.s3tc.stex", "res://.import/wood_lowres.png-f6f18fcd9c66785ba53a8ad1677824d9.etc2.stex" ]
+source_file="res://textures/base/wood_lowres.png"
+dest_files=[ "res://.import/wood_lowres.png-729abcacfad742bd7e79b94e05d3ffa1.s3tc.stex", "res://.import/wood_lowres.png-729abcacfad742bd7e79b94e05d3ffa1.etc2.stex" ]
 
 [params]
 

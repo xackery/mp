@@ -25,7 +25,7 @@ func _physics_process(delta):
 	
 	var horizontal_input := Vector3(input_x, 0, input_z)
 	if horizontal_input.length_squared() > 1.0:
-		horizontal_input.normalized()
+		horizontal_input = horizontal_input.normalized()
 	
 	horizontal_input = horizontal_input.rotated(Vector3.UP, -rotation_y)
 	
