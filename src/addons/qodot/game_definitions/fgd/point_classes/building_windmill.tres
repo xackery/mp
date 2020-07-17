@@ -18,6 +18,7 @@ class_property_descriptions = {
 }
 meta_properties = {
 "color": Color( 0.8, 0.8, 0.8, 1 ),
+"model": "\"objects/buildings/windmill/windmill.mdl\"",
 "size": AABB( -48, -48, 0, 48, 48, 120 )
 }
 node_options = "----------------------------------------------------------------"
