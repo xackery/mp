@@ -37,6 +37,12 @@
 	velocity(string) : "Initial velocity"  : "0 0 0"
 ]
 
+@PointClass size(-8 -8 -8, 8 8 8) color(204 204 204) = player_spawn : "Player Spawns Here" [
+]
+
+@PointClass size(-48 -48 0, 48 48 120) color(204 204 204) = building_windmill : "Full windmill building" [
+]
+
 @SolidClass = worldspawn : "World Entity" [
 ]
 

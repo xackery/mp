@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/lava.png-689b60408487f961640e91d2529f624a.s3tc.stex"
-path.etc2="res://.import/lava.png-689b60408487f961640e91d2529f624a.etc2.stex"
+path.s3tc="res://.import/water.png-a528f10afaacf621d40a7bfa1d3f72c1.s3tc.stex"
+path.etc2="res://.import/water.png-a528f10afaacf621d40a7bfa1d3f72c1.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/qodot/textures/layers/lava.png"
-dest_files=[ "res://.import/lava.png-689b60408487f961640e91d2529f624a.s3tc.stex", "res://.import/lava.png-689b60408487f961640e91d2529f624a.etc2.stex" ]
+source_file="res://textures/layers/water.png"
+dest_files=[ "res://.import/water.png-a528f10afaacf621d40a7bfa1d3f72c1.s3tc.stex", "res://.import/water.png-a528f10afaacf621d40a7bfa1d3f72c1.etc2.stex" ]
 
 [params]
 

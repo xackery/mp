@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/water.png-7580bd9811beea0cad8dada8d9bd98e3.s3tc.stex"
-path.etc2="res://.import/water.png-7580bd9811beea0cad8dada8d9bd98e3.etc2.stex"
+path.s3tc="res://.import/skip.png-2026d0f841ccf5af70e5ac1bf277c3e0.s3tc.stex"
+path.etc2="res://.import/skip.png-2026d0f841ccf5af70e5ac1bf277c3e0.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/qodot/textures/layers/water.png"
-dest_files=[ "res://.import/water.png-7580bd9811beea0cad8dada8d9bd98e3.s3tc.stex", "res://.import/water.png-7580bd9811beea0cad8dada8d9bd98e3.etc2.stex" ]
+source_file="res://textures/special/skip.png"
+dest_files=[ "res://.import/skip.png-2026d0f841ccf5af70e5ac1bf277c3e0.s3tc.stex", "res://.import/skip.png-2026d0f841ccf5af70e5ac1bf277c3e0.etc2.stex" ]
 
 [params]
 
@@ -25,7 +25,7 @@ flags/repeat=1
 flags/filter=false
 flags/mipmaps=true
 flags/anisotropic=true
-flags/srgb=2
+flags/srgb=1
 process/fix_alpha_border=false
 process/premult_alpha=false
 process/HDR_as_SRGB=false

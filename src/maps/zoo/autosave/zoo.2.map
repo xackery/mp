@@ -511,12 +511,11 @@
 }
 // entity 1
 {
-"classname" "player_spawn"
-"origin" "1560 -1320 8"
-"angle" "180"
+"classname" "building_windmill"
+"origin" "632 -1048 8"
 }
 // entity 2
 {
-"classname" "building_windmill"
-"origin" "568 -1048 8"
+"classname" "player_spawn"
+"origin" "1560 -1288 8"
 }

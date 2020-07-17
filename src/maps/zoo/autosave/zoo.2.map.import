@@ -1,0 +1,13 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+path="res://.import/zoo.2.map-355c7f269e00b3930311f3f68143ddd1.tres"
+
+[deps]
+
+source_file="res://maps/zoo/autosave/zoo.2.map"
+dest_files=[ "res://.import/zoo.2.map-355c7f269e00b3930311f3f68143ddd1.tres" ]
+
+[params]
+

@@ -5,6 +5,7 @@
 "classname" "worldspawn"
 "_tb_textures" "textures/base;textures/floor"
 "_tb_def" "builtin:Qodot.fgd"
+"angle" ""
 // brush 0
 {
 ( -384 -3648 -64 ) ( -384 -3647 -64 ) ( -384 -3648 -63 ) floor/ground_moss 0 -64 0 1 1

@@ -2,9 +2,11 @@
 
 [ext_resource path="res://addons/qodot/src/nodes/qodot_map.gd" type="Script" id=1]
 [ext_resource path="res://addons/qodot/game_definitions/fgd/qodot_fgd.tres" type="Resource" id=2]
-[ext_resource path="res://addons/qodot/textures/base/checkerboard.png" type="Texture" id=3]
-[ext_resource path="res://addons/qodot/textures/base/grid.png" type="Texture" id=5]
+[ext_resource path="res://textures/base/checkerboard.png" type="Texture" id=3]
+[ext_resource path="res://textures/base/grid.png" type="Texture" id=5]
 [ext_resource path="res://addons/qodot/game_definitions/fgd/point_classes/physics_ball.tscn" type="PackedScene" id=6]
+
+
 
 [sub_resource type="ProceduralSky" id=2]
 

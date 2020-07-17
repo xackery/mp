@@ -3,17 +3,20 @@
 [ext_resource path="res://addons/qodot/src/nodes/qodot_map.gd" type="Script" id=1]
 [ext_resource path="res://addons/qodot/game_definitions/fgd/qodot_fgd.tres" type="Resource" id=2]
 [ext_resource path="res://addons/qodot/game_definitions/fgd/point_classes/physics_ball.tscn" type="PackedScene" id=3]
-[ext_resource path="res://addons/qodot/textures/base/grid.png" type="Texture" id=5]
+[ext_resource path="res://textures/base/grid.png" type="Texture" id=5]
 [ext_resource path="res://addons/qodot/game_definitions/worldspawn_layers/liquid/lava.tres" type="Resource" id=6]
 [ext_resource path="res://addons/qodot/game_definitions/worldspawn_layers/liquid/slime.tres" type="Resource" id=7]
 [ext_resource path="res://addons/qodot/game_definitions/worldspawn_layers/liquid/water.tres" type="Resource" id=8]
-[ext_resource path="res://addons/qodot/textures/layers/slime.tres" type="Material" id=9]
-[ext_resource path="res://addons/qodot/textures/layers/lava.tres" type="Material" id=10]
-[ext_resource path="res://addons/qodot/textures/base/checkerboard.png" type="Texture" id=11]
+[ext_resource path="res://textures/layers/slime.tres" type="Material" id=9]
+[ext_resource path="res://textures/layers/lava.tres" type="Material" id=10]
+[ext_resource path="res://textures/base/checkerboard.png" type="Texture" id=11]
 [ext_resource path="res://addons/qodot/game_definitions/worldspawn_layers/liquid/water.gd" type="Script" id=12]
 [ext_resource path="res://addons/qodot/game_definitions/worldspawn_layers/liquid/slime.gd" type="Script" id=13]
 [ext_resource path="res://addons/qodot/game_definitions/worldspawn_layers/liquid/lava.gd" type="Script" id=14]
-[ext_resource path="res://addons/qodot/textures/layers/water.tres" type="Material" id=15]
+[ext_resource path="res://textures/layers/water.tres" type="Material" id=15]
+
+
+
 
 [sub_resource type="ProceduralSky" id=2]
 
