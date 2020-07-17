@@ -34,6 +34,7 @@ var base_text: String = """{
 	"textures": {
 		"package": { "type": "directory", "root": "textures" },
 		"format": { "extensions": ["bmp", "exr", "hdr", "jpeg", "jpg", "png", "tga", "webp"], "format": "image" },
+		"palette": "addons/qodot/palette.lmp",
 		"attribute": "_tb_textures"
 	},
 	"entities": {
