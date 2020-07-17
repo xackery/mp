@@ -8,7 +8,31 @@ Voting process was [held on twitter](https://twitter.com/HauntedPs1)
 
 * Godot 3.2.2 
 * Blender 2.83
+* TrenchBroom 2020.1
+
+## Environment Setup
+
+1. Place Godot binary in the /src folder
+2. Place TrenchBroom folder in the /tools folder
+3. Run Godot and add the src folder as a project. Alternatively, you can drag the `project.godot` file on to the Godot binary
+4. In the Godot project structure, double click `res://addons/qodot/game_definitions/trenchbroom/qodot_trenchbroom_config_folder.tres`
+5. On the right bar, set the `Trenchbroom Games Folder` to `<TrenchBroom Dir>/game`
+6. Click on `Export File`
+7. Run TrenchBroom, click on `New Map`, then `Open preferences`, then `mp` on the left bar, and navigate to the `/src` folder
+8. Click `OK`
+
+## Creating new maps
+
+Create a new map under game `mp` with map format `quake2`.  Under the Face tab on the top right, you can open the `Texture Collections` drawer in the bottom and add a texture category.  Floor will be the most useful, as it uses a toned down PS1 shader for high angle viewing (ie. Floor from an FPS perspective)
+
 
 ## Attributions
 
 * http://texturer.com/
+* http://cc0textures.com/
+
+## Contributors
+
+* Xackery
+* Ali
+* [List the rest please]
