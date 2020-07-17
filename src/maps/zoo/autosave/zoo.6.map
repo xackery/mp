@@ -519,4 +519,5 @@
 {
 "classname" "building_windmill"
 "origin" "568 -1048 8"
+"model" ""
 }

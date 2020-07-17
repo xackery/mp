@@ -20,8 +20,8 @@ func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
 func _physics_process(delta):
-	var input_x := Input.get_action_strength("move_right") - Input.get_action_strength("move_left")
-	var input_z := Input.get_action_strength("move_back") - Input.get_action_strength("move_forward")
+	var input_x := Input.get_action_strength("move_left") - Input.get_action_strength("move_right")
+	var input_z := Input.get_action_strength("move_forward") - Input.get_action_strength("move_back")
 	
 	var horizontal_input := Vector3(input_x, 0, input_z)
 	if horizontal_input.length_squared() > 1.0:
@@ -47,7 +47,7 @@ func _physics_process(delta):
 	rotation_y += mouse_movement.x * delta * rotation_speed
 	rotation_x += mouse_movement.y * delta * rotation_speed
 	
-	body.rotation = Vector3(-rotation_x, -rotation_y, 0.0)
+	body.rotation = Vector3(rotation_x, -rotation_y, 0.0)
 	
 	mouse_movement = Vector2()
 

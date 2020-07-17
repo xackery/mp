@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/fabric_lowres.png-84e7be617af6adc73309356b55385dbd.s3tc.stex"
-path.etc2="res://.import/fabric_lowres.png-84e7be617af6adc73309356b55385dbd.etc2.stex"
+path.s3tc="res://.import/brick_lowres.png-6634b38271be2a8c2ad09d52c094cea2.s3tc.stex"
+path.etc2="res://.import/brick_lowres.png-6634b38271be2a8c2ad09d52c094cea2.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://textures/base/fabric_lowres.png"
-dest_files=[ "res://.import/fabric_lowres.png-84e7be617af6adc73309356b55385dbd.s3tc.stex", "res://.import/fabric_lowres.png-84e7be617af6adc73309356b55385dbd.etc2.stex" ]
+source_file="res://textures/ps1/brick_lowres.png"
+dest_files=[ "res://.import/brick_lowres.png-6634b38271be2a8c2ad09d52c094cea2.s3tc.stex", "res://.import/brick_lowres.png-6634b38271be2a8c2ad09d52c094cea2.etc2.stex" ]
 
 [params]
 

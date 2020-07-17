@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/uv_test.png-fd4a36e4ed5521518cd8597264b8d180.s3tc.stex"
-path.etc2="res://.import/uv_test.png-fd4a36e4ed5521518cd8597264b8d180.etc2.stex"
+path.s3tc="res://.import/grid.png-fd4a33a8da0d6ae534a921b7a845447a.s3tc.stex"
+path.etc2="res://.import/grid.png-fd4a33a8da0d6ae534a921b7a845447a.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/qodot/textures/base/uv_test.png"
-dest_files=[ "res://.import/uv_test.png-fd4a36e4ed5521518cd8597264b8d180.s3tc.stex", "res://.import/uv_test.png-fd4a36e4ed5521518cd8597264b8d180.etc2.stex" ]
+source_file="res://textures/base/grid.png"
+dest_files=[ "res://.import/grid.png-fd4a33a8da0d6ae534a921b7a845447a.s3tc.stex", "res://.import/grid.png-fd4a33a8da0d6ae534a921b7a845447a.etc2.stex" ]
 
 [params]
 

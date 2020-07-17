@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/brick_lowres.png-f93c6d50f201a3748b2e5cdeb4f0542d.s3tc.stex"
-path.etc2="res://.import/brick_lowres.png-f93c6d50f201a3748b2e5cdeb4f0542d.etc2.stex"
+path.s3tc="res://.import/ground_moss.jpg-e9841a9612f386c2206018cba61caef5.s3tc.stex"
+path.etc2="res://.import/ground_moss.jpg-e9841a9612f386c2206018cba61caef5.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://textures/base/brick_lowres.png"
-dest_files=[ "res://.import/brick_lowres.png-f93c6d50f201a3748b2e5cdeb4f0542d.s3tc.stex", "res://.import/brick_lowres.png-f93c6d50f201a3748b2e5cdeb4f0542d.etc2.stex" ]
+source_file="res://textures/floor/ground_moss.jpg"
+dest_files=[ "res://.import/ground_moss.jpg-e9841a9612f386c2206018cba61caef5.s3tc.stex", "res://.import/ground_moss.jpg-e9841a9612f386c2206018cba61caef5.etc2.stex" ]
 
 [params]
 
