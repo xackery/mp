@@ -7,6 +7,7 @@ on:
 jobs:
   # job id, can be anything
   export_game:
+    if: "! contains(toJSON(github.event.commits.*.message), '[ci skip]')"
     # Always use ubuntu-latest for this action
     runs-on: ubuntu-latest
     # Job name, can be anything
