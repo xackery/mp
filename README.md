@@ -31,8 +31,16 @@ Create a new map under game `mp` with map format `quake2`.  Under the Face tab o
 * http://texturer.com/
 * http://cc0textures.com/
 
-## Contributors
+## Credits
 
-* Xackery
-* Ali
-* [List the rest please]
+| Person    | Roles     |
+|--------------------|-----------------------------|
+| Loliponi           | Composer                    |
+| Cursed Audio LLC   | Sound design                |
+| Ra                 | Scriptwriting               |
+| Taiki Sensei       | Scriptwriting, Voice acting |
+| Ali                | Programming, Art            |
+| Xackery            | Programming, Art            |
+| Fireniner          | Art                         |
+| Ian                | Art                         |
+| Sayuri World       | Voice acting                |
