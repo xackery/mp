@@ -1,0 +1,15 @@
+{
+  "name": "pixel_crush_tool",
+  "version": "1.0.0",
+  "main": "pixel_crush.js",
+  "license": "MIT",
+  "dependencies": {
+    "jimp": "^0.14.0"
+  },
+  "scripts": {
+    "build": "nexe pixel_crush.js"
+  },
+  "devDependencies": {
+    "nexe": "^3.3.7"
+  }
+}
