@@ -28,11 +28,12 @@ Create a new map under game `mp` with map format `quake2`.  Under the Face tab o
 
 ## Attributions
 
-* http://texturer.com/
-* http://cc0textures.com/
-* http://texturehaven.com/
-* http://hdrihaven.com/
-* http://3dtextures.me/
+* [Texturer](http://texturer.com/)
+* [CC0 Textures](https://cc0textures.com/)
+* [TextureHaven](https://texturehaven.com/)
+* [HDRI Haven](https://hdrihaven.com/)
+* [3D Textures](https://3dtextures.me/)
+* [Kenney](https://www.kenney.nl/)
 
 ## Credits
 
