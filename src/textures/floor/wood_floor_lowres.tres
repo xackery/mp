@@ -1,7 +1,7 @@
 [gd_resource type="ShaderMaterial" load_steps=3 format=2]
 
 [ext_resource path="res://textures/ps1/wood_lowres.png" type="Texture" id=1]
-[ext_resource path="res://shaders/psx_lit_floor.shader" type="Shader" id=2]
+[ext_resource path="res://shaders/psx_unlit_floor.shader" type="Shader" id=2]
 
 [resource]
 shader = ExtResource( 2 )

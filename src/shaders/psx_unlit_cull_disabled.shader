@@ -1,11 +1,11 @@
 shader_type spatial; 
-render_mode skip_vertex_transform, diffuse_lambert_wrap, ambient_light_disabled;
+render_mode skip_vertex_transform, unshaded, specular_phong, ambient_light_disabled, cull_disabled;
 
 uniform vec4 color : hint_color = vec4(1.0, 1.0, 1.0, 1.0);
 uniform sampler2D albedoTex : hint_albedo;
 uniform float specular_intensity : hint_range(0, 1);
 uniform float resolution = 64;
-uniform float cull_distance = 200;
+uniform float cull_distance = 60;
 uniform vec2 uv_scale = vec2(1.0, 1.0);
 uniform vec2 uv_offset = vec2(.0, .0);
 
@@ -29,5 +29,5 @@ void fragment() {
 	vec4 tex = texture(albedoTex, vertex_coordinates.xy / vertex_coordinates.z);
 	
 	ALBEDO = tex.rgb * color.rgb;
-	SPECULAR = 0.;//specular_intensity;
+	SPECULAR = specular_intensity;
 }
