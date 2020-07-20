@@ -1,0 +1,43 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://textures/particles/wisp.png" type="Texture" id=1]
+
+[sub_resource type="Gradient" id=6]
+offsets = PoolRealArray( 0.00738007, 0.188192, 0.774908, 1 )
+colors = PoolColorArray( 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1 )
+
+[sub_resource type="GradientTexture" id=7]
+gradient = SubResource( 6 )
+
+[sub_resource type="ParticlesMaterial" id=5]
+emission_shape = 2
+emission_box_extents = Vector3( 10, 10, 10 )
+spread = 180.0
+gravity = Vector3( 0, 0, 0 )
+initial_velocity = 0.5
+initial_velocity_random = 1.0
+scale = 0.5
+scale_random = 0.5
+color_ramp = SubResource( 7 )
+hue_variation = 0.08
+hue_variation_random = 1.0
+
+[sub_resource type="SpatialMaterial" id=1]
+flags_transparent = true
+vertex_color_use_as_albedo = true
+params_blend_mode = 1
+params_billboard_mode = 1
+albedo_texture = ExtResource( 1 )
+
+[sub_resource type="QuadMesh" id=2]
+material = SubResource( 1 )
+size = Vector2( 0.5, 0.5 )
+
+[node name="wisps" type="Particles"]
+cast_shadow = 0
+amount = 12
+lifetime = 30.0
+preprocess = 1.0
+visibility_aabb = AABB( -10, -10, -10, 20, 20, 20 )
+process_material = SubResource( 5 )
+draw_pass_1 = SubResource( 2 )

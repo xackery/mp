@@ -22,6 +22,6 @@ material_file_extension = "tres"
 default_material = SubResource( 1 )
 uv_unwrap_texel_size = 1.0
 print_profiling_data = false
-use_trenchbroom_group_hierarchy = true
+use_trenchbroom_group_hierarchy = false
 tree_attach_batch_size = 16
 set_owner_batch_size = 16

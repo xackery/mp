@@ -19,4 +19,7 @@ fog_enabled = true
 fog_color = Color( 0.0588235, 0.0588235, 0.0588235, 1 )
 fog_depth_begin = 40.0
 fog_depth_curve = 2.0
+fog_height_enabled = true
+fog_height_min = 20.0
+fog_height_max = 40.0
 tonemap_mode = 2
