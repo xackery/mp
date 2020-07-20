@@ -520,3 +520,8 @@
 "classname" "building_windmill"
 "origin" "568 -1048 8"
 }
+// entity 3
+{
+"classname" "func_environment"
+"origin" "1512 -1240 8"
+}

@@ -1200,7 +1200,6 @@ environment = ExtResource( 5 )
 
 [node name="DirectionalLight" type="DirectionalLight" parent="."]
 transform = Transform( 1, 0, 0, 0, -0.16398, 0.986464, 0, -0.986464, -0.16398, 0, 39.1523, 0 )
-visible = false
 light_color = Color( 0.647059, 0.647059, 0.752941, 1 )
 light_energy = 0.05
 light_indirect_energy = 0.0

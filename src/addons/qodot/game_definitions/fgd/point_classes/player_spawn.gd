@@ -6,7 +6,7 @@ var spawn_facing := 0.0
 func update_properties():
 	.update_properties()
 	if 'angle' in properties:
-		spawn_facing = deg2rad(properties.angle.to_float())
+		spawn_facing = deg2rad(properties.angle)
 
 func _ready():
 	call_deferred("_spawn")
