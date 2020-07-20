@@ -31,13 +31,11 @@ func iterate_dir(path: String) -> void:
 		print("Error accessing path %s" % path)
 
 func load_map(path: String) -> void:
-	var environment_path = "res://maps/%s/%s_environment.tres" % [path.get_file().get_basename(), path.get_file().get_basename()]
 	var file = File.new()
 	if file.open(path, File.READ) == OK:
 		path = file.get_path_absolute()
 	print("Loading map %s..." % path)
 	var map := preload("res://scenes/map.tscn").instance()
-	get_node("/root/main/Viewport").get_viewport().world.environment = load(environment_path)
 	var qodot_map = map.get_node("QodotMap")
 	qodot_map.connect("build_complete", self, "_on_build_complete")
 	qodot_map.connect("build_progress", self, "_on_build_progress")
