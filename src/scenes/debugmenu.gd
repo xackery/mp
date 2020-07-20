@@ -31,14 +31,15 @@ func iterate_dir(path: String) -> void:
 		print("Error accessing path %s" % path)
 
 func load_map(path: String) -> void:
+	var environment_path = "res://maps/%s/%s_environment.tres" % [path.get_file().get_basename(), path.get_file().get_basename()]
 	var file = File.new()
 	if file.open(path, File.READ) == OK:
 		path = file.get_path_absolute()
 	print("Loading map %s..." % path)
 	var map := preload("res://scenes/map.tscn").instance()
-	map.environment_file = "res://environments/forest_environment.tres"
+	get_node("/root/main/Viewport").get_viewport().world.environment = load(environment_path)
 	var qodot_map = map.get_node("QodotMap")
-	qodot_map.connect("build_complete", self, "_on_build_complete", [map])
+	qodot_map.connect("build_complete", self, "_on_build_complete")
 	qodot_map.connect("build_progress", self, "_on_build_progress")
 	qodot_map.connect("build_failed", self, "_on_build_failed")
 	qodot_map.map_file = path
@@ -47,7 +48,7 @@ func load_map(path: String) -> void:
 	get_node("/root/main").active_scene = map.get_path()
 	qodot_map.call_deferred("verify_and_build")
 
-func _on_build_complete(map):
+func _on_build_complete():
 	queue_free()
 
 func _on_build_progress(step, progress):

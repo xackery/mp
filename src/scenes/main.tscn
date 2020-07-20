@@ -1,7 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://scenes/debugmenu.tscn" type="PackedScene" id=1]
 [ext_resource path="res://scenes/main.gd" type="Script" id=2]
+
+[sub_resource type="World" id=2]
 
 [sub_resource type="ViewportTexture" id=1]
 viewport_path = NodePath("Viewport")
@@ -15,7 +17,9 @@ __meta__ = {
 }
 
 [node name="Viewport" type="Viewport" parent="."]
-size = Vector2( 320, 240 )
+size = Vector2( 640, 480 )
+own_world = true
+world = SubResource( 2 )
 render_target_v_flip = true
 audio_listener_enable_3d = true
 physics_object_picking = true
