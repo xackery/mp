@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/texture_04.png-6a90ce0dc89e23681bbde5c20fbf3146.s3tc.stex"
-path.etc2="res://.import/texture_04.png-6a90ce0dc89e23681bbde5c20fbf3146.etc2.stex"
+path.s3tc="res://.import/purplebox.png-33c51901fddab8b34df537debf516491.s3tc.stex"
+path.etc2="res://.import/purplebox.png-33c51901fddab8b34df537debf516491.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://textures/base/texture_04.png"
-dest_files=[ "res://.import/texture_04.png-6a90ce0dc89e23681bbde5c20fbf3146.s3tc.stex", "res://.import/texture_04.png-6a90ce0dc89e23681bbde5c20fbf3146.etc2.stex" ]
+source_file="res://textures/base/purplebox.png"
+dest_files=[ "res://.import/purplebox.png-33c51901fddab8b34df537debf516491.s3tc.stex", "res://.import/purplebox.png-33c51901fddab8b34df537debf516491.etc2.stex" ]
 
 [params]
 

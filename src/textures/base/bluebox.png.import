@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/texture_08.png-1ba6a9b566541380ece0fc64ee7f765f.s3tc.stex"
-path.etc2="res://.import/texture_08.png-1ba6a9b566541380ece0fc64ee7f765f.etc2.stex"
+path.s3tc="res://.import/bluebox.png-1c6c0e0f92d558ab9a58c21e631ef2a1.s3tc.stex"
+path.etc2="res://.import/bluebox.png-1c6c0e0f92d558ab9a58c21e631ef2a1.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://textures/base/texture_08.png"
-dest_files=[ "res://.import/texture_08.png-1ba6a9b566541380ece0fc64ee7f765f.s3tc.stex", "res://.import/texture_08.png-1ba6a9b566541380ece0fc64ee7f765f.etc2.stex" ]
+source_file="res://textures/base/bluebox.png"
+dest_files=[ "res://.import/bluebox.png-1c6c0e0f92d558ab9a58c21e631ef2a1.s3tc.stex", "res://.import/bluebox.png-1c6c0e0f92d558ab9a58c21e631ef2a1.etc2.stex" ]
 
 [params]
 

@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/texture_06.png-9d07f4e9b61dec9d595da5fe28a3e30a.s3tc.stex"
-path.etc2="res://.import/texture_06.png-9d07f4e9b61dec9d595da5fe28a3e30a.etc2.stex"
+path.s3tc="res://.import/redbox.png-c7912c3de89a18acd3ccb4980605b3d5.s3tc.stex"
+path.etc2="res://.import/redbox.png-c7912c3de89a18acd3ccb4980605b3d5.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://textures/base/texture_06.png"
-dest_files=[ "res://.import/texture_06.png-9d07f4e9b61dec9d595da5fe28a3e30a.s3tc.stex", "res://.import/texture_06.png-9d07f4e9b61dec9d595da5fe28a3e30a.etc2.stex" ]
+source_file="res://textures/base/redbox.png"
+dest_files=[ "res://.import/redbox.png-c7912c3de89a18acd3ccb4980605b3d5.s3tc.stex", "res://.import/redbox.png-c7912c3de89a18acd3ccb4980605b3d5.etc2.stex" ]
 
 [params]
 

@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/texture_01.png-74b3f476828c705f36cb0a6695ba2e6a.s3tc.stex"
-path.etc2="res://.import/texture_01.png-74b3f476828c705f36cb0a6695ba2e6a.etc2.stex"
+path.s3tc="res://.import/orangebox.png-d4f937981ef107b8087a64ba33e5051f.s3tc.stex"
+path.etc2="res://.import/orangebox.png-d4f937981ef107b8087a64ba33e5051f.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://textures/base/texture_01.png"
-dest_files=[ "res://.import/texture_01.png-74b3f476828c705f36cb0a6695ba2e6a.s3tc.stex", "res://.import/texture_01.png-74b3f476828c705f36cb0a6695ba2e6a.etc2.stex" ]
+source_file="res://textures/base/orangebox.png"
+dest_files=[ "res://.import/orangebox.png-d4f937981ef107b8087a64ba33e5051f.s3tc.stex", "res://.import/orangebox.png-d4f937981ef107b8087a64ba33e5051f.etc2.stex" ]
 
 [params]
 

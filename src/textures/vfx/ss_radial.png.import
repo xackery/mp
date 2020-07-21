@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/texture_09.png-2cf6a9eb5eb7e1d1963d701895a66699.s3tc.stex"
-path.etc2="res://.import/texture_09.png-2cf6a9eb5eb7e1d1963d701895a66699.etc2.stex"
+path.s3tc="res://.import/ss_radial.png-472ae4c488bb38f107398542288ee6e4.s3tc.stex"
+path.etc2="res://.import/ss_radial.png-472ae4c488bb38f107398542288ee6e4.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://textures/base/texture_09.png"
-dest_files=[ "res://.import/texture_09.png-2cf6a9eb5eb7e1d1963d701895a66699.s3tc.stex", "res://.import/texture_09.png-2cf6a9eb5eb7e1d1963d701895a66699.etc2.stex" ]
+source_file="res://textures/vfx/ss_radial.png"
+dest_files=[ "res://.import/ss_radial.png-472ae4c488bb38f107398542288ee6e4.s3tc.stex", "res://.import/ss_radial.png-472ae4c488bb38f107398542288ee6e4.etc2.stex" ]
 
 [params]
 

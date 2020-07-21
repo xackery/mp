@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/texture_02.png-b4081d68fd94f15a1db6058fafbdec0f.s3tc.stex"
-path.etc2="res://.import/texture_02.png-b4081d68fd94f15a1db6058fafbdec0f.etc2.stex"
+path.s3tc="res://.import/blood_vessels.png-8d53d1a794373b4c533a6563db47f956.s3tc.stex"
+path.etc2="res://.import/blood_vessels.png-8d53d1a794373b4c533a6563db47f956.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://textures/base/texture_02.png"
-dest_files=[ "res://.import/texture_02.png-b4081d68fd94f15a1db6058fafbdec0f.s3tc.stex", "res://.import/texture_02.png-b4081d68fd94f15a1db6058fafbdec0f.etc2.stex" ]
+source_file="res://textures/vfx/blood_vessels.png"
+dest_files=[ "res://.import/blood_vessels.png-8d53d1a794373b4c533a6563db47f956.s3tc.stex", "res://.import/blood_vessels.png-8d53d1a794373b4c533a6563db47f956.etc2.stex" ]
 
 [params]
 
