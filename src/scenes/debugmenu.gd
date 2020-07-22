@@ -36,8 +36,8 @@ func load_map(path: String) -> void:
 		path = file.get_path_absolute()
 	print("Loading map %s..." % path)
 	var map := preload("res://scenes/map.tscn").instance()
-	var qodot_map = map.get_node("QodotMap")
-	qodot_map.connect("build_complete", self, "_on_build_complete")
+	var qodot_map = map.get_node("Navigation/NavigationMeshInstance/QodotMap")
+	qodot_map.connect("build_complete", self, "_on_build_complete", [qodot_map])
 	qodot_map.connect("build_progress", self, "_on_build_progress")
 	qodot_map.connect("build_failed", self, "_on_build_failed")
 	qodot_map.map_file = path
@@ -46,7 +46,9 @@ func load_map(path: String) -> void:
 	get_node("/root/main").active_scene = map.get_path()
 	qodot_map.call_deferred("verify_and_build")
 
-func _on_build_complete():
+func _on_build_complete(map: QodotMap):
+	var navmesh = map.get_node("Navigation/NavigationMeshInstance")
+	print(navmesh)
 	queue_free()
 
 func _on_build_progress(step, progress):

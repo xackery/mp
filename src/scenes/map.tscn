@@ -1,13 +1,22 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://addons/qodot/src/nodes/qodot_map.gd" type="Script" id=2]
 [ext_resource path="res://addons/qodot/game_definitions/fgd/qodot_fgd.tres" type="Resource" id=3]
 
-[sub_resource type="SpatialMaterial" id=1]
+[sub_resource type="NavigationMesh" id=1]
+geometry/parsed_geometry_type = 1
+geometry/collision_mask = 4294967295
+
+[sub_resource type="SpatialMaterial" id=2]
 
 [node name="map" type="Spatial"]
 
-[node name="QodotMap" type="Spatial" parent="."]
+[node name="Navigation" type="Navigation" parent="."]
+
+[node name="NavigationMeshInstance" type="NavigationMeshInstance" parent="Navigation"]
+navmesh = SubResource( 1 )
+
+[node name="QodotMap" type="Spatial" parent="Navigation/NavigationMeshInstance"]
 script = ExtResource( 2 )
 map_file = "P:/Personal/Godot/Qodot/qodot-example/addons/qodot/example_scenes/2-miscallaneous/1-runtime-map-building/1-runtime-map-building.map"
 inverse_scale_factor = 16.0
@@ -19,7 +28,7 @@ brush_clip_texture = "special/clip"
 face_skip_texture = "special/skip"
 texture_wads = [  ]
 material_file_extension = "tres"
-default_material = SubResource( 1 )
+default_material = SubResource( 2 )
 uv_unwrap_texel_size = 1.0
 print_profiling_data = false
 use_trenchbroom_group_hierarchy = false
