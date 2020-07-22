@@ -47,4 +47,5 @@ Create a new map under game `mp` with map format `quake2`.  Under the Face tab o
 | Xackery            | Programming, Art            |
 | Fireniner          | Art                         |
 | Ian                | Art                         |
+| Vitória3D          | 3D art, Textures            |
 | Sayuri World       | Voice acting                |
