@@ -21,6 +21,7 @@ func iterate_dir(path: String) -> void:
 		dir.list_dir_begin()
 		var file_name = dir.get_next()
 		while file_name != "":
+			print("%s/%s" % [path, file_name])
 			if file_name != "." and file_name != ".." and file_name != "autosave":
 				if dir.current_is_dir():
 					iterate_dir("%s/%s" % [path, file_name])
@@ -47,8 +48,9 @@ func load_map(path: String) -> void:
 	qodot_map.call_deferred("verify_and_build")
 
 func _on_build_complete(map: QodotMap):
-	var navmesh = map.get_node("Navigation/NavigationMeshInstance")
-	print(navmesh)
+	#var navmesh: NavigationMesh = map.get_node("../..")
+	#navmesh.
+	#print(navmesh)
 	queue_free()
 
 func _on_build_progress(step, progress):
