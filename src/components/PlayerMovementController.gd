@@ -18,6 +18,7 @@ var rotation_y := 0.0
 func _ready():
 	body = get_node(body_node_path)
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+	rotation_y = body.rotation.y
 
 func _physics_process(delta):
 	var input_x := Input.get_action_strength("move_left") - Input.get_action_strength("move_right")
