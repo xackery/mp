@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/forest.glb-6c01e2b47311955166c39b65f6e37f18.scn"
+path="res://.import/forest_pool.glb-caa7d9c4f9681cc5660d36b8c572f536.scn"
 
 [deps]
 
-source_file="res://maps/forest/forest.glb"
-dest_files=[ "res://.import/forest.glb-6c01e2b47311955166c39b65f6e37f18.scn" ]
+source_file="res://maps/forest/forest_pool.glb"
+dest_files=[ "res://.import/forest_pool.glb-caa7d9c4f9681cc5660d36b8c572f536.scn" ]
 
 [params]
 
