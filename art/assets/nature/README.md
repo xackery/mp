@@ -1,0 +1,1 @@
+Nature related assets here
