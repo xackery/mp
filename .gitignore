@@ -4,3 +4,4 @@
 /bin
 !/tools/pixel_crush
 *.blend1
+/**/autosave/*
