@@ -1,6 +1,6 @@
 extends Spatial
 
-export var base_speed := 20.0
+export var base_speed := 6.0
 export var max_speed := 100.0
 export var acceleration := 16.0
 export var deceleration := 32.0

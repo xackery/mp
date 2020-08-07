@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/normal.png-b56aa63765cf38bd34613ee569a4e396.stex"
+path="res://.import/normal.png-b253394d95b2b5bab9c1cecfe5a686af.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://maps/forest/terrain_data/normal.png"
-dest_files=[ "res://.import/normal.png-b56aa63765cf38bd34613ee569a4e396.stex" ]
+source_file="res://maps/forest/forestpatharea_data/normal.png"
+dest_files=[ "res://.import/normal.png-b253394d95b2b5bab9c1cecfe5a686af.stex" ]
 
 [params]
 

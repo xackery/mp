@@ -9,6 +9,16 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "Spatial",
+"class": "AIController",
+"language": "GDScript",
+"path": "res://components/AIController.gd"
+}, {
+"base": "Spatial",
+"class": "AINav",
+"language": "GDScript",
+"path": "res://components/AI/AINav.gd"
+}, {
 "base": "ResourceFormatLoader",
 "class": "HTerrainDataLoader",
 "language": "GDScript",
@@ -185,6 +195,8 @@ _global_script_classes=[ {
 "path": "res://addons/qodot/game_definitions/worldspawn_layers/liquid/water.gd"
 } ]
 _global_script_class_icons={
+"AIController": "",
+"AINav": "",
 "HTerrainDataLoader": "",
 "HTerrainDataSaver": "",
 "LavaLayer": "",
