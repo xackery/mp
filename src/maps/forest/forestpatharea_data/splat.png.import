@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/color.png-96b761dedf3beba55822b115f561769c.stex"
+path="res://.import/splat.png-71107903ff408304b1f20b753a8679a3.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://maps/forest/terrain_data/color.png"
-dest_files=[ "res://.import/color.png-96b761dedf3beba55822b115f561769c.stex" ]
+source_file="res://maps/forest/forestpatharea_data/splat.png"
+dest_files=[ "res://.import/splat.png-71107903ff408304b1f20b753a8679a3.stex" ]
 
 [params]
 
@@ -23,7 +23,7 @@ flags/repeat=0
 flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
-flags/srgb=1
+flags/srgb=0
 process/fix_alpha_border=false
 process/premult_alpha=false
 process/HDR_as_SRGB=false
