@@ -24,9 +24,9 @@ func _draw_debug_ai(ai):
 
 func _draw_debug_ai_nav(ai: AINav):
 	var points := PoolVector3Array([ai.body.translation])
-	var colors := PoolColorArray([Color.magenta])
+	var colors := PoolColorArray([Color.magenta if ai.direct_nav else Color.lime])
 	points.append_array(ai.path)
-	var append_colors = PoolColorArray([Color.magenta])
+	var append_colors = PoolColorArray([Color.magenta if ai.direct_nav else Color.lime])
 	for _p in range(1, ai.path.size()):
 		append_colors.append(Color.white)
 	colors.append_array(append_colors)

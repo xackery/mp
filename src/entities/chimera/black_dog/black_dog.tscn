@@ -7,7 +7,7 @@
 [ext_resource path="res://components/AI/AIMovementAnimator.gd" type="Script" id=5]
 [ext_resource path="res://components/AI/AIPatrolPath.gd" type="Script" id=6]
 
-[sub_resource type="ArrayMesh" id=1]
+[sub_resource type="ArrayMesh" id=36]
 resource_name = "Body"
 surfaces/0 = {
 "aabb": AABB( -0.239783, 0.227824, -0.335959, 0.433754, 0.597448, 1.23365 ),
@@ -22,7 +22,7 @@ surfaces/0 = {
 "vertex_count": 32
 }
 
-[sub_resource type="Skin" id=2]
+[sub_resource type="Skin" id=37]
 resource_name = "Skin"
 bind_count = 50
 bind/0/name = "look_target"
@@ -176,7 +176,7 @@ bind/49/name = "fore_control"
 bind/49/bone = -1
 bind/49/pose = Transform( 1, 1.13687e-13, -9.53674e-07, -1.13687e-13, 1, -3.94174e-13, 9.53674e-07, 1.0842e-19, 1, 0.0229066, -0.5704, -0.670175 )
 
-[sub_resource type="ArrayMesh" id=3]
+[sub_resource type="ArrayMesh" id=38]
 resource_name = "Ears"
 surfaces/0 = {
 "aabb": AABB( -0.162368, 0.89949, 0.961234, 0.281113, 0.262681, 0.158535 ),
@@ -191,7 +191,7 @@ surfaces/0 = {
 "vertex_count": 78
 }
 
-[sub_resource type="ArrayMesh" id=4]
+[sub_resource type="ArrayMesh" id=39]
 resource_name = "Head"
 surfaces/0 = {
 "aabb": AABB( -0.214604, 0.53543, 0.883522, 0.383396, 0.499563, 0.523564 ),
@@ -206,7 +206,7 @@ surfaces/0 = {
 "vertex_count": 32
 }
 
-[sub_resource type="ArrayMesh" id=5]
+[sub_resource type="ArrayMesh" id=40]
 resource_name = "LegF1"
 surfaces/0 = {
 "aabb": AABB( -0.625, 0.331717, 0.411131, 1.20404, 0.291385, 0.295038 ),
@@ -221,7 +221,7 @@ surfaces/0 = {
 "vertex_count": 50
 }
 
-[sub_resource type="ArrayMesh" id=6]
+[sub_resource type="ArrayMesh" id=41]
 resource_name = "LegF2"
 surfaces/0 = {
 "aabb": AABB( -0.915064, 0.12139, 0.313595, 1.78417, 0.482055, 0.229634 ),
@@ -236,7 +236,7 @@ surfaces/0 = {
 "vertex_count": 50
 }
 
-[sub_resource type="ArrayMesh" id=7]
+[sub_resource type="ArrayMesh" id=42]
 resource_name = "LegF3"
 surfaces/0 = {
 "aabb": AABB( -0.916497, 0.0408883, 0.34883, 1.79094, 0.145164, 0.291645 ),
@@ -251,7 +251,7 @@ surfaces/0 = {
 "vertex_count": 50
 }
 
-[sub_resource type="ArrayMesh" id=8]
+[sub_resource type="ArrayMesh" id=43]
 resource_name = "LegH1"
 surfaces/0 = {
 "aabb": AABB( -0.664273, 0.502069, -0.291339, 1.28273, 0.548494, 0.424267 ),
@@ -266,7 +266,7 @@ surfaces/0 = {
 "vertex_count": 50
 }
 
-[sub_resource type="ArrayMesh" id=9]
+[sub_resource type="ArrayMesh" id=44]
 resource_name = "LegH2"
 surfaces/0 = {
 "aabb": AABB( -1.13418, 0.326266, -0.481717, 2.22254, 0.733833, 0.591829 ),
@@ -281,7 +281,7 @@ surfaces/0 = {
 "vertex_count": 50
 }
 
-[sub_resource type="ArrayMesh" id=10]
+[sub_resource type="ArrayMesh" id=45]
 resource_name = "LegH3"
 surfaces/0 = {
 "aabb": AABB( -1.17364, 0.0109628, -0.482512, 2.30147, 0.385563, 0.477351 ),
@@ -296,7 +296,7 @@ surfaces/0 = {
 "vertex_count": 50
 }
 
-[sub_resource type="ArrayMesh" id=11]
+[sub_resource type="ArrayMesh" id=46]
 resource_name = "Neck"
 surfaces/0 = {
 "aabb": AABB( -0.205418, 0.445999, 0.573503, 0.36487, 0.510174, 0.587448 ),
@@ -311,7 +311,7 @@ surfaces/0 = {
 "vertex_count": 24
 }
 
-[sub_resource type="ArrayMesh" id=12]
+[sub_resource type="ArrayMesh" id=47]
 resource_name = "Tail1"
 surfaces/0 = {
 "aabb": AABB( -0.0883534, 0.609769, -0.502747, 0.130895, 0.372417, 0.318902 ),
@@ -326,7 +326,7 @@ surfaces/0 = {
 "vertex_count": 32
 }
 
-[sub_resource type="ArrayMesh" id=13]
+[sub_resource type="ArrayMesh" id=48]
 resource_name = "Tail2"
 surfaces/0 = {
 "aabb": AABB( -0.0697361, 0.93541, -0.575761, 0.0936604, 0.300146, 0.135663 ),
@@ -341,7 +341,7 @@ surfaces/0 = {
 "vertex_count": 32
 }
 
-[sub_resource type="ArrayMesh" id=14]
+[sub_resource type="ArrayMesh" id=49]
 resource_name = "Tail3"
 surfaces/0 = {
 "aabb": AABB( -0.0573593, 1.22461, -0.584427, 0.0689068, 0.220723, 0.0708183 ),
@@ -356,7 +356,7 @@ surfaces/0 = {
 "vertex_count": 32
 }
 
-[sub_resource type="ArrayMesh" id=15]
+[sub_resource type="ArrayMesh" id=50]
 resource_name = "Tail4"
 surfaces/0 = {
 "aabb": AABB( -0.0816259, 1.41608, -0.5599, 0.11744, 0.234011, 0.559866 ),
@@ -371,7 +371,7 @@ surfaces/0 = {
 "vertex_count": 40
 }
 
-[sub_resource type="Animation" id=16]
+[sub_resource type="Animation" id=51]
 resource_name = "Attack"
 length = 0.0333333
 tracks/0/type = "transform"
@@ -725,7 +725,7 @@ tracks/49/imported = true
 tracks/49/enabled = true
 tracks/49/keys = PoolRealArray( 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0.0333333, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 )
 
-[sub_resource type="Animation" id=17]
+[sub_resource type="Animation" id=52]
 resource_name = "Crouch"
 length = 0.0333333
 tracks/0/type = "transform"
@@ -1079,7 +1079,7 @@ tracks/49/imported = true
 tracks/49/enabled = true
 tracks/49/keys = PoolRealArray( 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0.0333333, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 )
 
-[sub_resource type="Animation" id=18]
+[sub_resource type="Animation" id=53]
 resource_name = "Idle"
 length = 0.0333333
 tracks/0/type = "transform"
@@ -1433,7 +1433,7 @@ tracks/49/imported = true
 tracks/49/enabled = true
 tracks/49/keys = PoolRealArray( 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0.0333333, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 )
 
-[sub_resource type="Animation" id=19]
+[sub_resource type="Animation" id=54]
 resource_name = "PounceJump"
 length = 0.0333333
 tracks/0/type = "transform"
@@ -1787,7 +1787,7 @@ tracks/49/imported = true
 tracks/49/enabled = true
 tracks/49/keys = PoolRealArray( 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0.0333333, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 )
 
-[sub_resource type="Animation" id=20]
+[sub_resource type="Animation" id=55]
 resource_name = "PounceLand"
 length = 0.0333333
 tracks/0/type = "transform"
@@ -2141,7 +2141,7 @@ tracks/49/imported = true
 tracks/49/enabled = true
 tracks/49/keys = PoolRealArray( 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0.0333333, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 )
 
-[sub_resource type="Animation" id=21]
+[sub_resource type="Animation" id=56]
 resource_name = "PounceReady"
 length = 0.0333333
 tracks/0/type = "transform"
@@ -2495,7 +2495,7 @@ tracks/49/imported = true
 tracks/49/enabled = true
 tracks/49/keys = PoolRealArray( 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0.0333333, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 )
 
-[sub_resource type="Animation" id=22]
+[sub_resource type="Animation" id=57]
 resource_name = "RunFrame1"
 length = 0.0333333
 tracks/0/type = "transform"
@@ -2849,7 +2849,7 @@ tracks/49/imported = true
 tracks/49/enabled = true
 tracks/49/keys = PoolRealArray( 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0.0333333, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 )
 
-[sub_resource type="Animation" id=23]
+[sub_resource type="Animation" id=58]
 resource_name = "RunFrame2"
 length = 0.0333333
 tracks/0/type = "transform"
@@ -3203,7 +3203,7 @@ tracks/49/imported = true
 tracks/49/enabled = true
 tracks/49/keys = PoolRealArray( 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0.0333333, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 )
 
-[sub_resource type="Animation" id=24]
+[sub_resource type="Animation" id=59]
 resource_name = "SideStep1"
 length = 0.0333333
 tracks/0/type = "transform"
@@ -3557,7 +3557,7 @@ tracks/49/imported = true
 tracks/49/enabled = true
 tracks/49/keys = PoolRealArray( 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0.0333333, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 )
 
-[sub_resource type="Animation" id=25]
+[sub_resource type="Animation" id=60]
 resource_name = "SideStep2"
 length = 0.0333333
 tracks/0/type = "transform"
@@ -3911,7 +3911,7 @@ tracks/49/imported = true
 tracks/49/enabled = true
 tracks/49/keys = PoolRealArray( 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0.0333333, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 )
 
-[sub_resource type="Animation" id=26]
+[sub_resource type="Animation" id=61]
 resource_name = "Walk"
 length = 1.33333
 loop = true
@@ -4266,7 +4266,7 @@ tracks/49/imported = true
 tracks/49/enabled = true
 tracks/49/keys = PoolRealArray( 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0.0666667, 1, 0, 0.123077, 0, 0, 0, 0, 1, 1, 1, 1, 1.33333, 1, 0, 4.8, 0, 0, 0, 0, 1, 1, 1, 1 )
 
-[sub_resource type="Animation" id=27]
+[sub_resource type="Animation" id=62]
 resource_name = "Walk Backwards"
 length = 1.33333
 loop = true
@@ -4621,38 +4621,38 @@ tracks/49/imported = true
 tracks/49/enabled = true
 tracks/49/keys = PoolRealArray( 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0.0666667, 1, 0, -0.123077, 0, 0, 0, 0, 1, 1, 1, 1, 1.33333, 1, 0, -4.8, 0, 0, 0, 0, 1, 1, 1, 1 )
 
-[sub_resource type="CapsuleShape" id=34]
+[sub_resource type="CapsuleShape" id=63]
 radius = 0.8
 height = 0.787144
 
-[sub_resource type="SpatialMaterial" id=28]
+[sub_resource type="SpatialMaterial" id=64]
 flags_unshaded = true
 vertex_color_use_as_albedo = true
 
-[sub_resource type="AnimationNodeAnimation" id=29]
+[sub_resource type="AnimationNodeAnimation" id=30]
 animation = "Walk"
 
-[sub_resource type="AnimationNodeAnimation" id=30]
+[sub_resource type="AnimationNodeAnimation" id=31]
 animation = "Walk Backwards"
 
-[sub_resource type="AnimationNodeAnimation" id=31]
+[sub_resource type="AnimationNodeAnimation" id=32]
 animation = "Idle"
 
-[sub_resource type="AnimationNodeBlendSpace1D" id=32]
-blend_point_0/node = SubResource( 29 )
+[sub_resource type="AnimationNodeBlendSpace1D" id=33]
+blend_point_0/node = SubResource( 30 )
 blend_point_0/pos = 1.0
-blend_point_1/node = SubResource( 30 )
+blend_point_1/node = SubResource( 31 )
 blend_point_1/pos = -1.0
-blend_point_2/node = SubResource( 31 )
+blend_point_2/node = SubResource( 32 )
 blend_point_2/pos = 0.0
 
-[sub_resource type="AnimationNodeTimeScale" id=35]
+[sub_resource type="AnimationNodeTimeScale" id=34]
 
-[sub_resource type="AnimationNodeBlendTree" id=33]
-graph_offset = Vector2( -109, 67 )
-nodes/WalkBlend1D/node = SubResource( 32 )
+[sub_resource type="AnimationNodeBlendTree" id=35]
+graph_offset = Vector2( -11, 69.5 )
+nodes/WalkBlend1D/node = SubResource( 33 )
 nodes/WalkBlend1D/position = Vector2( 500, 100 )
-nodes/WalkTimeScale/node = SubResource( 35 )
+nodes/WalkTimeScale/node = SubResource( 34 )
 nodes/WalkTimeScale/position = Vector2( 740, 120 )
 nodes/output/position = Vector2( 980, 120 )
 node_connections = [ "output", 0, "WalkTimeScale", "WalkTimeScale", 0, "WalkBlend1D" ]
@@ -4915,92 +4915,92 @@ bones/49/enabled = true
 bones/49/bound_children = [  ]
 
 [node name="Body" type="MeshInstance" parent="Armature/Skeleton"]
-mesh = SubResource( 1 )
-skin = SubResource( 2 )
+mesh = SubResource( 36 )
+skin = SubResource( 37 )
 material/0 = null
 
 [node name="Ears" type="MeshInstance" parent="Armature/Skeleton"]
-mesh = SubResource( 3 )
-skin = SubResource( 2 )
+mesh = SubResource( 38 )
+skin = SubResource( 37 )
 material/0 = null
 
 [node name="Head" type="MeshInstance" parent="Armature/Skeleton"]
-mesh = SubResource( 4 )
-skin = SubResource( 2 )
+mesh = SubResource( 39 )
+skin = SubResource( 37 )
 material/0 = null
 
 [node name="LegF1" type="MeshInstance" parent="Armature/Skeleton"]
-mesh = SubResource( 5 )
-skin = SubResource( 2 )
+mesh = SubResource( 40 )
+skin = SubResource( 37 )
 material/0 = null
 
 [node name="LegF2" type="MeshInstance" parent="Armature/Skeleton"]
-mesh = SubResource( 6 )
-skin = SubResource( 2 )
+mesh = SubResource( 41 )
+skin = SubResource( 37 )
 material/0 = null
 
 [node name="LegF3" type="MeshInstance" parent="Armature/Skeleton"]
-mesh = SubResource( 7 )
-skin = SubResource( 2 )
+mesh = SubResource( 42 )
+skin = SubResource( 37 )
 material/0 = null
 
 [node name="LegH1" type="MeshInstance" parent="Armature/Skeleton"]
-mesh = SubResource( 8 )
-skin = SubResource( 2 )
+mesh = SubResource( 43 )
+skin = SubResource( 37 )
 material/0 = null
 
 [node name="LegH2" type="MeshInstance" parent="Armature/Skeleton"]
-mesh = SubResource( 9 )
-skin = SubResource( 2 )
+mesh = SubResource( 44 )
+skin = SubResource( 37 )
 material/0 = null
 
 [node name="LegH3" type="MeshInstance" parent="Armature/Skeleton"]
-mesh = SubResource( 10 )
-skin = SubResource( 2 )
+mesh = SubResource( 45 )
+skin = SubResource( 37 )
 material/0 = null
 
 [node name="Neck" type="MeshInstance" parent="Armature/Skeleton"]
-mesh = SubResource( 11 )
-skin = SubResource( 2 )
+mesh = SubResource( 46 )
+skin = SubResource( 37 )
 material/0 = null
 
 [node name="Tail1" type="MeshInstance" parent="Armature/Skeleton"]
-mesh = SubResource( 12 )
-skin = SubResource( 2 )
+mesh = SubResource( 47 )
+skin = SubResource( 37 )
 material/0 = null
 
 [node name="Tail2" type="MeshInstance" parent="Armature/Skeleton"]
-mesh = SubResource( 13 )
-skin = SubResource( 2 )
+mesh = SubResource( 48 )
+skin = SubResource( 37 )
 material/0 = null
 
 [node name="Tail3" type="MeshInstance" parent="Armature/Skeleton"]
-mesh = SubResource( 14 )
-skin = SubResource( 2 )
+mesh = SubResource( 49 )
+skin = SubResource( 37 )
 material/0 = null
 
 [node name="Tail4" type="MeshInstance" parent="Armature/Skeleton"]
-mesh = SubResource( 15 )
-skin = SubResource( 2 )
+mesh = SubResource( 50 )
+skin = SubResource( 37 )
 material/0 = null
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-anims/Attack = SubResource( 16 )
-anims/Crouch = SubResource( 17 )
-anims/Idle = SubResource( 18 )
-anims/PounceJump = SubResource( 19 )
-anims/PounceLand = SubResource( 20 )
-anims/PounceReady = SubResource( 21 )
-anims/RunFrame1 = SubResource( 22 )
-anims/RunFrame2 = SubResource( 23 )
-anims/SideStep1 = SubResource( 24 )
-anims/SideStep2 = SubResource( 25 )
-anims/Walk = SubResource( 26 )
-"anims/Walk Backwards" = SubResource( 27 )
+anims/Attack = SubResource( 51 )
+anims/Crouch = SubResource( 52 )
+anims/Idle = SubResource( 53 )
+anims/PounceJump = SubResource( 54 )
+anims/PounceLand = SubResource( 55 )
+anims/PounceReady = SubResource( 56 )
+anims/RunFrame1 = SubResource( 57 )
+anims/RunFrame2 = SubResource( 58 )
+anims/SideStep1 = SubResource( 59 )
+anims/SideStep2 = SubResource( 60 )
+anims/Walk = SubResource( 61 )
+"anims/Walk Backwards" = SubResource( 62 )
 
 [node name="CollisionShape" type="CollisionShape" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0 )
-shape = SubResource( 34 )
+shape = SubResource( 63 )
 
 [node name="Components" type="Spatial" parent="."]
 
@@ -5014,7 +5014,7 @@ script = ExtResource( 4 )
 [node name="DebugSpace" type="Node" parent="Components/AIController/AIDebug"]
 
 [node name="ImmediateGeometry" type="ImmediateGeometry" parent="Components/AIController/AIDebug/DebugSpace"]
-material_override = SubResource( 28 )
+material_override = SubResource( 64 )
 
 [node name="AINav" type="Spatial" parent="Components/AIController"]
 script = ExtResource( 3 )
@@ -5026,8 +5026,10 @@ script = ExtResource( 5 )
 script = ExtResource( 6 )
 ai_nav_path = NodePath("../AINav")
 
+[node name="AIFSM" type="Spatial" parent="Components/AIController"]
+
 [node name="AnimationTree" type="AnimationTree" parent="."]
-tree_root = SubResource( 33 )
+tree_root = SubResource( 35 )
 anim_player = NodePath("../AnimationPlayer")
 active = true
 root_motion_track = NodePath("Armature/Skeleton:hind_control_1")

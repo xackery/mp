@@ -24,3 +24,4 @@ far = 2000.0
 [node name="PlayerMovementController" type="Spatial" parent="Components"]
 script = ExtResource( 1 )
 body_node_path = NodePath("../..")
+camera_node_path = NodePath("../../Camera")

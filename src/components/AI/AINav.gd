@@ -12,6 +12,7 @@ var body: KinematicBody
 var nav: Navigation
 var path: PoolVector3Array
 var invalidate_destination := true
+var direct_nav: bool = true
 
 func setup(ai_node):
 	path = PoolVector3Array()
@@ -38,8 +39,10 @@ func tick(delta):
 		# Try to find a direct path
 		if hit.empty() or hit.position.distance_to(destination) < CLOSE_ENOUGH:
 			path = PoolVector3Array([destination])
+			direct_nav = true
 		else: # No direct path
 			path = nav.get_simple_path(translation, destination)
+			direct_nav = false
 		if not path.empty():
 			destination = path[path.size() - 1]
 	

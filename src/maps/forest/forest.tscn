@@ -34,7 +34,8 @@ geometry/source_geometry_mode = 1
 geometry/source_group_name = "navmesh"
 
 [sub_resource type="Gradient" id=2]
-colors = PoolColorArray( 0, 0, 0, 1, 0.950066, 1, 0.863281, 1 )
+offsets = PoolRealArray( 0, 0.278351, 1 )
+colors = PoolColorArray( 0, 0, 0, 1, 0.329897, 0.299331, 0.240979, 1, 0.901559, 1, 0.730469, 1 )
 
 [sub_resource type="GradientTexture" id=3]
 gradient = SubResource( 2 )
@@ -61,10 +62,10 @@ adjustment_enabled = true
 adjustment_contrast = 0.9
 adjustment_color_correction = SubResource( 3 )
 
-[sub_resource type="SpatialMaterial" id=7]
+[sub_resource type="SpatialMaterial" id=6]
 albedo_color = Color( 0.254902, 0.0352941, 0.0352941, 1 )
 
-[sub_resource type="SpatialMaterial" id=6]
+[sub_resource type="SpatialMaterial" id=7]
 flags_transparent = true
 albedo_color = Color( 0, 0.952941, 1, 0.27451 )
 emission_enabled = true
@@ -443,17 +444,17 @@ transform = Transform( 0.995585, 0, 0.0938651, 0, 1, 0, -0.0938651, 0, 0.995585,
 width = 13.7344
 height = 6.10271
 depth = 21.0049
-material = SubResource( 7 )
+material = SubResource( 6 )
 
 [node name="WaterVis" type="CSGBox" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 49.0058, -18.3239, -61.3716 )
-material_override = SubResource( 6 )
+material_override = SubResource( 7 )
 width = 21.0452
 depth = 17.7936
 
 [node name="WaterVis2" type="CSGBox" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 159.029, -22.8997, -78.3068 )
-material_override = SubResource( 6 )
+material_override = SubResource( 7 )
 width = 70.707
 depth = 277.496
 

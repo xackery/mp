@@ -8,8 +8,10 @@ export var gravity := 20.0
 export var rotation_speed := 0.1
 
 export var body_node_path: NodePath
+export var camera_node_path: NodePath
 
 var body: Spatial
+var camera: Camera
 var velocity := Vector3()
 var mouse_movement := Vector2()
 var rotation_x := 0.0
@@ -17,6 +19,7 @@ var rotation_y := 0.0
 
 func _ready():
 	body = get_node(body_node_path)
+	camera = get_node(camera_node_path)
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	rotation_y = body.rotation.y
 
@@ -48,7 +51,11 @@ func _physics_process(delta):
 	rotation_y += mouse_movement.x * delta * rotation_speed
 	rotation_x += mouse_movement.y * delta * rotation_speed
 	
-	body.rotation = Vector3(rotation_x, -rotation_y, 0.0)
+	rotation_y = fmod(rotation_y, 2 * PI)
+	rotation_x = clamp(rotation_x, -PI / 2, PI / 2)
+	
+	body.rotation = Vector3(0.0, -rotation_y, 0.0)
+	camera.rotation = Vector3(-rotation_x, 0.0, 0.0)
 	
 	mouse_movement = Vector2()
 
